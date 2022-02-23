@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		15C073FD27C5F2E0007A1C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C073FC27C5F2E0007A1C16 /* AppDelegate.swift */; };
 		15C073FF27C5F2E0007A1C16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C073FE27C5F2E0007A1C16 /* SceneDelegate.swift */; };
-		15C0740127C5F2E0007A1C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0740027C5F2E0007A1C16 /* ViewController.swift */; };
+		15C0740127C5F2E0007A1C16 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0740027C5F2E0007A1C16 /* RootViewController.swift */; };
 		15C0740427C5F2E0007A1C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C0740227C5F2E0007A1C16 /* Main.storyboard */; };
 		15C0740627C5F2E3007A1C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C0740527C5F2E3007A1C16 /* Assets.xcassets */; };
 		15C0740927C5F2E3007A1C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C0740727C5F2E3007A1C16 /* LaunchScreen.storyboard */; };
+		15C0741227C5F329007A1C16 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0741127C5F329007A1C16 /* CollectionViewCell.swift */; };
+		15C0741427C5F422007A1C16 /* ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0741327C5F422007A1C16 /* ReusableCell.swift */; };
+		15C0741727C60943007A1C16 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0741627C60943007A1C16 /* CustomView.swift */; };
+		15C0741927C60D4F007A1C16 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0741827C60D4F007A1C16 /* View.swift */; };
+		15C0741B27C60E82007A1C16 /* UIColor+RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0741A27C60E82007A1C16 /* UIColor+RandomColor.swift */; };
+		15C0741D27C60FEF007A1C16 /* UICollectionViewLayout+ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0741C27C60FEF007A1C16 /* UICollectionViewLayout+ListLayout.swift */; };
+		15C0741F27C61727007A1C16 /* UICollectionView+CellRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0741E27C61727007A1C16 /* UICollectionView+CellRegistration.swift */; };
+		15C0742127C61FE7007A1C16 /* String+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C0742027C61FE7007A1C16 /* String+Random.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15C073F927C5F2E0007A1C16 /* CollectionView_CompositionalLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView_CompositionalLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C073FC27C5F2E0007A1C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15C073FE27C5F2E0007A1C16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15C0740027C5F2E0007A1C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15C0740027C5F2E0007A1C16 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		15C0740327C5F2E0007A1C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15C0740527C5F2E3007A1C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C0740827C5F2E3007A1C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15C0740A27C5F2E3007A1C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C0741127C5F329007A1C16 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		15C0741327C5F422007A1C16 /* ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCell.swift; sourceTree = "<group>"; };
+		15C0741627C60943007A1C16 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		15C0741827C60D4F007A1C16 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		15C0741A27C60E82007A1C16 /* UIColor+RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RandomColor.swift"; sourceTree = "<group>"; };
+		15C0741C27C60FEF007A1C16 /* UICollectionViewLayout+ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewLayout+ListLayout.swift"; sourceTree = "<group>"; };
+		15C0741E27C61727007A1C16 /* UICollectionView+CellRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+CellRegistration.swift"; sourceTree = "<group>"; };
+		15C0742027C61FE7007A1C16 /* String+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Random.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,39 @@
 		15C073FB27C5F2E0007A1C16 /* CollectionView_CompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
+				15C0741527C60910007A1C16 /* Extensions */,
+				15C0741027C5F315007A1C16 /* View */,
 				15C073FC27C5F2E0007A1C16 /* AppDelegate.swift */,
 				15C073FE27C5F2E0007A1C16 /* SceneDelegate.swift */,
-				15C0740027C5F2E0007A1C16 /* ViewController.swift */,
+				15C0740027C5F2E0007A1C16 /* RootViewController.swift */,
 				15C0740227C5F2E0007A1C16 /* Main.storyboard */,
 				15C0740527C5F2E3007A1C16 /* Assets.xcassets */,
 				15C0740727C5F2E3007A1C16 /* LaunchScreen.storyboard */,
 				15C0740A27C5F2E3007A1C16 /* Info.plist */,
 			);
 			path = CollectionView_CompositionalLayout;
+			sourceTree = "<group>";
+		};
+		15C0741027C5F315007A1C16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15C0741127C5F329007A1C16 /* CollectionViewCell.swift */,
+				15C0741327C5F422007A1C16 /* ReusableCell.swift */,
+				15C0741827C60D4F007A1C16 /* View.swift */,
+				15C0741627C60943007A1C16 /* CustomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15C0741527C60910007A1C16 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15C0741A27C60E82007A1C16 /* UIColor+RandomColor.swift */,
+				15C0741C27C60FEF007A1C16 /* UICollectionViewLayout+ListLayout.swift */,
+				15C0741E27C61727007A1C16 /* UICollectionView+CellRegistration.swift */,
+				15C0742027C61FE7007A1C16 /* String+Random.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +178,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C0740127C5F2E0007A1C16 /* ViewController.swift in Sources */,
+				15C0741427C5F422007A1C16 /* ReusableCell.swift in Sources */,
+				15C0740127C5F2E0007A1C16 /* RootViewController.swift in Sources */,
 				15C073FD27C5F2E0007A1C16 /* AppDelegate.swift in Sources */,
+				15C0741F27C61727007A1C16 /* UICollectionView+CellRegistration.swift in Sources */,
+				15C0741727C60943007A1C16 /* CustomView.swift in Sources */,
+				15C0741B27C60E82007A1C16 /* UIColor+RandomColor.swift in Sources */,
+				15C0741227C5F329007A1C16 /* CollectionViewCell.swift in Sources */,
+				15C0741927C60D4F007A1C16 /* View.swift in Sources */,
+				15C0742127C61FE7007A1C16 /* String+Random.swift in Sources */,
+				15C0741D27C60FEF007A1C16 /* UICollectionViewLayout+ListLayout.swift in Sources */,
 				15C073FF27C5F2E0007A1C16 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
